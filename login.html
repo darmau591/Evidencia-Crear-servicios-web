@@ -1,0 +1,33 @@
+<!-- login.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>User Login</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="card">
+              <h1>Iniciar Sesion</h1>
+              <div class="card_top">
+                <img class="logo" src="./resources/img/logo.png" alt="">
+              </div>
+              <div class="card_body">
+                <form action="login.php" method="post">
+                  <label for="first_name">Nombre:</label>
+                  <input type="text" id="first_name" name="first_name" required><br>
+                  
+                  <label for="id_number">Numero ID:</label>
+                  <input type="text" id="id_number" name="id_number" required><br>
+                  
+                  <button class="btn" type="submit">Iniciar Sesion</button>
+                  <button class="btn"  type="submit"><a href="./index.html">atras</a></button>
+                </form>
+              </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

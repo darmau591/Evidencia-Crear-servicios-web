@@ -1,0 +1,38 @@
+
+<!-- registration.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>registro de usuario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+      <div class="container">
+        <div class="card">
+          <h1>Registro de Usuario</h1>
+          <div class="card_top">
+            <img class="user_img" src="./resources/img/149071.png" alt="">
+          </div>
+          <div class="card_body">
+
+            <form action="register.php" method="post">
+              <label for="first_name">Nombre:</label>
+              <input type="text" id="first_name" name="first_name" required><br>
+              
+              <label for="last_name">Apellido</label>
+              <input type="text" id="last_name" name="last_name" required><br>
+              
+              <label for="id_number">Numero ID:</label>
+              <input type="text" id="id_number" name="id_number" required><br>
+              
+              <button class="btn"  type="submit">Registrar</button>
+              <button class="btn"  type="submit"><a href="./index.html">atras</a></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+</body>
+</html>
