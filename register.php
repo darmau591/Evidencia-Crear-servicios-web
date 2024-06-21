@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sql = "INSERT INTO users (first_name, last_name, id_number) VALUES ('$first_name', '$last_name', '$id_number')";
 
     if ($conn->query($sql) === TRUE) {
-        echo "<script>alert('Registration successful!'); window.location.href = './login.html';</script>";
+        echo "<script>alert('Registro Exitoso'); window.location.href = './login.html';</script>";
     } else {
         echo "<script>alert('Error: " . $conn->error . "'); window.location.href = './registration.html';</script>";
     }
